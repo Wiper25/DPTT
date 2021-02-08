@@ -1,0 +1,78 @@
+body {
+    background-color: #dfdfe5;
+    box-sizing: border-box;
+}
+.inputBlock {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+    min-width: 1000px;
+}
+.inputGrey{
+    background-color: #c9ccd5;
+    border: 0px;
+    width: 30%;
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 20px;
+    outline: none;
+
+}
+.inputWhite{
+    height: 35px;
+    width: 30%;
+    border-radius: 10px;
+    padding-left: 30px;
+    border: 0px;
+    outline: none;
+    transition: all .5s ;
+
+}
+.listBlock {
+    position: relative;
+    right: 105px;
+    display: flex;
+    width: 100px;
+    justify-content: space-evenly;
+    opacity: 0;
+    z-index: -9;
+}
+.leftBox {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border: 0px;
+    outline: none;
+    left: 25px;
+    border-radius: 2px;
+    background-color: #eae8ea;
+    opacity: 0;
+    z-index: -9;
+    transition: all .5s ;
+}
+.opacity {
+    z-index: 9;
+    opacity: 1;
+    transition: all .5s ;
+}
+.btnInput{
+    width: 25px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: #f2f3f6;
+    outline: none;
+    cursor: pointer;
+}
+.displayNone {
+    display: inline;
+}
+.listBlock select {
+    border-radius: 5px;
+    width: 65px;
+    border: 0px;
+    outline: none;
+    padding-left: 7px;
+    background-color: #f4f4f8;
+    height: 25px;
+}
